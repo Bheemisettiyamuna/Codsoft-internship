@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>snacks Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="logo.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="header">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="first pic.png" alt="Image of snacks" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Fresh, Crispy, Heavenly.</h1>
+          <h2>
+            100% pure,and feels like home made snacks.The items used for preparing snacks are original and pure quality. Feels like
+            Heaven of Earth.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            We are a group of people with decades of experience in preparing these snack items. We know what a good snack looks like
+             and how they
+            are prepare. This essential snacks requires a temperate climate,and they will able to store for nearly 1month.
+             our snacks are freshly prepared by the group members.and we well maintain the neatnes.freshly prepared snacks are 
+        avalible.we offer a free delivery for a first buying customer.and we gave 40% discount on first order of customer.
+        suppling an healthy food items is our goal.espically now a days did not know which type of food items make them strong.in that way
+        we opened a business of supplying healthy and tasty snacks for customers.
+          </p>
+          <img src="preparing.png" alt="A man preparing snack items" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h2 class="section-heading">VARIETIES</h2>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="biscuites.png" alt="photo of biscuites"
+            <h4>Healthy Biscuites</h4>
+            <p>
+              This biscuites, are freshly prepared by our group members by using premium quality
+              ingredians.
+               </p>
+          </div>
+          <div class="tile">
+            <img
+              src="chips.png"
+              alt="photo of freshly prepared biscuites"
+            />
+            <h4>Crunchy Chips</h4>
+            <p>
+              A well colored. and freshly prepared crunchy chips are avalible which was prepared by natural potatos.
+              these chips are avalible in different flavors like salt, tomato, mirchi are some flavors available.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="chocolates.png" alt="photo of chips" />
+            <h4>Heavenly Chocolates</h4>
+            <p>
+              A very popular and widely cultivated variety of chocolates that 
+              are available in our snacks point. its tastes like a heaven.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="icecream.png" alt="photo of heavely chocolates" />
+            <h4>Icecream</h4>
+            <p>
+              A healthy and freshly prepared icecreams are avaliable. which was prepared by using natural colours and milk
+              avalible in all flavors.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="pizza.png" alt="photo of cool icecream" />
+            <h4> Hot Pizza</h4>
+            <p>
+              A freshly prepared hot pizza in differnt styles and flavors are avaliable at us
+              we freshly prepare pizza in less time. 
+            </p>
+          </div>
+          <div class="tile">
+            <img src="sweets.png" alt="photo of HOt pizza" />
+            <h4>Delicious Sweets</h4>
+            <p>
+              A varity of sweets which was prepared by the pure gee are avaliable at our snacks point.
+            </p>
+          </div>
+          <div class="title">
+      </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh snacks with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as apple is plucked from tree.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Yamuna Bheemisetti</a>
+    </footer>
+  </body>
+</html>
